@@ -47,4 +47,7 @@ export const colors = {
     "correspondance": {
         "": "#ccc"
     },
+    "télétravail": {
+        "": "#ccc"
+    },
 }

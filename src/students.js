@@ -183,7 +183,15 @@ export const students = [
     top: [14, 6, 2],
     entreprise: {
       arrivee: "08h55",
-      trajet: "télétravail",
+      trajet: [
+        {
+          type: "télétravail",
+          ligne: "",
+          duree: 1,
+          depart: "maison",
+          arrivee: "maison",
+        },
+      ],
     },
     ecole: {
       arrivee: "08h50",
@@ -602,7 +610,15 @@ export const students = [
     top: [14, 4, 1],
     entreprise: {
       arrivee: "09h00",
-      trajet: "télétravail",
+      trajet: [
+        {
+          type: "télétravail",
+          ligne: "",
+          duree: 1,
+          depart: "maison",
+          arrivee: "maison",
+        },
+      ],
     },
     ecole: {
       arrivee: "09h00",
