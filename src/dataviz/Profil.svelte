@@ -58,7 +58,7 @@
     position: fixed;
     z-index: 10;
     top: 2em;
-    right: 4em;
+    right: 2em;
     text-align: right;
   }
 

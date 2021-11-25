@@ -13,7 +13,7 @@
   .legende {
     position: fixed;
     bottom: 2em;
-    right: 4em;
+    right: 3em;
     z-index: 10;
   }
 </style>

@@ -10,6 +10,6 @@
     #logo {
         position: fixed;
         top: 2em;
-        left: 4em;
+        left: 3em;
     }
 </style>
