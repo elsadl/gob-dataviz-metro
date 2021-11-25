@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Dataviz from "./Dataviz.svelte";
+  import Dataviz from "./dataviz/Dataviz.svelte";
 </script>
 
 <main>
