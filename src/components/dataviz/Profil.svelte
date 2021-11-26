@@ -1,8 +1,8 @@
 <script>
-  import { colors } from "../data/colors";
+  import { colors } from "../../data/colors";
 
-  import { trajetDisplayed, wording, lignesClaires } from "../store";
-  import { hoursToMin, calcDureeTrajet, minToHours, getLignes } from "../utils";
+  import { trajetDisplayed, wording, lignesClaires } from "../../store";
+  import { hoursToMin, calcDureeTrajet, minToHours, getLignes } from "../../utils";
 
   export let student;
 
@@ -58,7 +58,7 @@
     position: fixed;
     z-index: 10;
     top: 2em;
-    right: 2em;
+    right: 3em;
     text-align: right;
   }
 

@@ -3,8 +3,8 @@
   
   import { scale } from "svelte/transition";
 
-  import { studentDisplayed, offset } from "../store";
-  import { hoursToMin, calcDureeTrajet, scaleTime } from "../utils";
+  import { studentDisplayed, offset } from "../../store";
+  import { hoursToMin, calcDureeTrajet, scaleTime } from "../../utils";
 
   export let trajet;
   export let arrivee;

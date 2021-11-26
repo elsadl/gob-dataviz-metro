@@ -1,5 +1,5 @@
 <script>
-  import { colors } from "../data/colors";
+  import { colors } from "../../data/colors";
 
   export let portion;
   export let scaleTime;

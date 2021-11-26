@@ -1,23 +1,23 @@
 <script>
   import Trajet from "./Trajet.svelte";
   import Profil from "./Profil.svelte";
-  import Legende from "./Legende.svelte";
+  import Toggle from "../Toggle.svelte";
   import Reperes from "./Reperes.svelte";
-  import Logo from "./Logo.svelte";
+  import LogoBW from "../LogoBW.svelte";
 
-  import { students } from "../data/students";
-  import { studentDisplayed, trajetDisplayed } from "../store";
+  import { students } from "../../data/students";
+  import { studentDisplayed, trajetDisplayed } from "../../store";
 
   const devs = students.filter((student) => student.type === "dev");
   const designers = students.filter((student) => student.type === "des");
 </script>
 
 <div id="container">
-  <Logo />
+  <LogoBW />
   {#if $studentDisplayed}
     <Profil student={$studentDisplayed} />
   {/if}
-  <Legende />
+  <Toggle />
   {#if $trajetDisplayed === "ecole"}
     <Reperes hours={[8, 8.5, 9, 9.5]} />
     <div class="trajets-container">

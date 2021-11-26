@@ -1,5 +1,5 @@
 <script>
-  import logo from "../assets/logo.svg";
+  import logo from "../assets/logoBW.svg";
 </script>
 
 <div id="logo">

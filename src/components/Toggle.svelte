@@ -28,6 +28,10 @@
 
 <style>
   #toggle {
+    position: fixed;
+    bottom: 2em;
+    right: 3em;
+    z-index: 10;
     cursor: pointer;
     font-size: 18px;
     display: flex;

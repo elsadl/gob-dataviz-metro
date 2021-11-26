@@ -1,6 +1,6 @@
 <script>
-  import { scaleTime } from "../utils";
-  import { studentDisplayed, offset } from "../store";
+  import { scaleTime } from "../../utils";
+  import { studentDisplayed, offset } from "../../store";
 
   import { fade } from "svelte/transition";
 
@@ -15,10 +15,10 @@
       transition:fade={{ duration: 600 }}
       class="repere"
       style="transform: translateY({scaleTime(hour * 60) -
-        offset}px); opacity: {opacity};"
+        offset}px); border-bottom: 2px dashed rgba(255, 255, 255, {opacity});"
     >
       {#if Math.round(hour) === hour}
-        <p>{hour}h</p>
+        <p style="opacity: {opacity*2};">{hour}h</p>
       {/if}
     </div>
   {/each}
@@ -32,10 +32,8 @@
   }
 
   .repere {
-    border-bottom: 2px dashed white;
     width: 100vw;
-    transition: opacity 400ms;
-    pointer-events: none;
+    /* pointer-events: none; */
   }
 
   .repere p {
