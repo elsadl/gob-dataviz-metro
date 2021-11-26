@@ -56,6 +56,6 @@
     transition: opacity 400ms;
     height: fit-content;
     cursor: pointer;
-    padding: 50px 5px;
+    padding: 0 5px 50px 5px;
   }
 </style>
