@@ -3,7 +3,7 @@ import { writable } from "svelte/store";
 export const studentDisplayed = writable();
 export const trajetDisplayed = writable("ecole");
 
-export const offset = 3000;
+export const offset = 2950;
 
 export const wording = {
   dev: "Développement",
